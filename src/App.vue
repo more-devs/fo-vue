@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     async fetchPersonas() {
-      const res = await axios.get('https://tu-backend.onrender.com/personas');
+      const res = await axios.get('https://b-vue-1.onrender.com/personas');
       this.personas = res.data;
     },
   },
