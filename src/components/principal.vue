@@ -5,7 +5,7 @@ import axios from 'axios'
 const personas = ref([])
 const nombre = ref('')
 const edad = ref(0)
-const api = 'https://tu-backend.onrender.com/personas'
+const api = 'https://b-vue.onrender.com/'
 
 const cargarDatos = async () => {
     const res = await axios.get(api)
