@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     async agregarPersona() {
-      await axios.post('https://b-vue-1.onrender.com/personas', {
+      await axios.post('https://bo-vue.onrender.com/personass', {
         nombre: this.nombre,
         edad: this.edad,
       });

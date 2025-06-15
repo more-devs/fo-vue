@@ -14,7 +14,7 @@ export default {
   props: ['personas'],
   methods: {
     async borrar(id) {
-      await axios.delete(`https://b-vue-1.onrender.com/personas/${id}`);
+      await axios.delete(`https://bo-vue.onrender.com/personass/${id}`);
       this.$emit('refresh');
     },
   },
