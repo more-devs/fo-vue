@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     async fetchPersonas() {
-      const res = await axios.get('https://b-vue-1.onrender.com/personas');
+      const res = await axios.get('https://b1-svelte.onrender.com/personass');
       this.personas = res.data;
     },
   },
